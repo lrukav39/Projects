@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1,
+#inputSection {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    background-color: hsl(203, 93%, 45%);
+    color: hsl(208, 100%, 97%);
+    font-size: 4rem;
+    width: 100%;
+}
+
+#inputSection {
+    margin-top: 30px;
+}
+
+#pokemonName,
+button {
+    height: 3rem;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#pokemonName {
+    margin-right: 5px;
+}
+
+button {
+    background-color: hsl(0, 89%, 40%);
+    color: hsl(208, 100%, 97%);
+    border: none;
+}
+
+button:hover {
+    background-color: hsl(0, 89%, 30%);
+}
+
+#card {
+    margin-top: 40px;
+    padding: 5px;
+    width: 400px;
+    height: 500px;
+    background-color: hsl(50, 20%, 90%);
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pokemonSprite {
+        height: 300px;
+        width: 250px;
+        text-align: center;
+}
+
+p {
+    font-size: 2rem;
+}
